@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="demojsp:war">
+    <output-path>$PROJECT_DIR$/demojsp/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>demojsp</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="demojsp-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="demojsp:war exploded" />
+    </root>
+  </artifact>
+</component>
